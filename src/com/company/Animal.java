@@ -7,6 +7,7 @@ abstract public class Animal
     String wiek;
     String kolor;
     String ksywa;
+    String przykład;
     abstract void przywitanie();
 
     Animal(){};
