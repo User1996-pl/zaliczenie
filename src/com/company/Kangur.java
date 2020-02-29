@@ -25,4 +25,10 @@ public class Kangur extends Animal implements Czynnosc
     {
         System.out.println("Teraz skacze");
     }
+
+    @Override
+    public void skok()
+    {
+        System.out.println("Teraz nie skacze");
+    }
 }
